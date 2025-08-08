@@ -10,12 +10,15 @@ More beautiful no ?
 
 You just have to restart pibooth every day in order to have the date up-to-date.
 
-Installation
--------------
+# Installation
+
 
 You have to copy the file `pibooth_month_name.py` in the directory of your plugins.
 
-Configuration
+# Configuration
+
+-------------
+Plugin configuration
 -------------
 
 In your configuration file `.config/pibooth/pibooth.cfg` you have to configure all parameters below : 
@@ -36,6 +39,12 @@ or if you have more than one plugin you have to make a table like that:
     plugins = ('/<Full Path>/pibooth_ftp.py', '/<Full Path>/pibooth_month_name.py')
 note:: Edit the configuration by running the command ``pibooth --config`` or editing the `.config/pibooth/pibooth.cfg` file.
 
+
+
+-------------
+Pibooth-Month-Name Configuration
+-------------
+
 Here the new configuration options available in the `pibooth` configuration.
 **The keys and their default values are automatically added to your configuration after first** `pibooth`_ **restart.**
 
@@ -50,6 +59,8 @@ Here the new configuration options available in the `pibooth` configuration.
     #date_format_footer_text2 = {day} {month} {year}
     date_format_footer_text2 = {month} {day} {year}
 note:: Edit the configuration by running the command ``pibooth --config`` or editing the `.config/pibooth/pibooth.cfg` file.
+
+-------------
 
 
 important, the default parameter have to be empty :
