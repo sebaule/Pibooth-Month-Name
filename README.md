@@ -28,7 +28,7 @@ Declaration of this plugin :
     plugins = /<Full Path>/pibooth_month_name.py
 note:: Edit the configuration by running the command ``pibooth --config`` or editing the `.config/pibooth/pibooth.cfg` file.
 
-or 
+or if you have more than one plugin you have to make a table like that:
 
     [GENERAL]
         
